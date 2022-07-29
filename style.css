@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+
+.sidebar{
+    color:white;
+    font-weight: bold;
+}
+
+img{
+    width: 30px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .sidebar{
+    height: 100vh;
+    display: grid;
+    grid-row: 1/6;
+    background-color: black;
+    font-size: 4vh;
+  }
+
+  .side-icons{
+    margin-left: 1vw;
+    display:flex;
+    gap: 10px;
+  }
+
+  svg{
+    height:6vh;
+  }

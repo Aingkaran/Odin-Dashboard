@@ -2,10 +2,7 @@ body{
     background-color: #e2e8f0;
 }
 
-.sidebar{
-    color:white;
-    font-weight: bold;
-}
+
 
 img{
     width: 30px;
@@ -23,7 +20,9 @@ img{
     text-align: center;
   }
 
-  .sidebar{
+.sidebar{
+    color:white;
+    font-weight: bold;
     height: 100vh;
     display: grid;
     grid-column: 1/2;
@@ -149,9 +148,25 @@ img{
 }
 .project-cards{
   background-color: white;
-  width: 300px;
+  width: 450px;
   height: 300px;
+  margin:20px;
+  border-radius: 20px;
+  padding: 20px;
+  border-left: solid;
+  border-left-color: #f0b429 ;
+  border-width: 10px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+.projects-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .content-projects{
   grid-column:1/2;
   display:grid;
@@ -169,18 +184,83 @@ img{
   grid-column:2/3;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.announcement-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+.announcements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trending-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-
+.trending{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .announcement-card {
-height: 400px;
-width: 200px;
-background-color:white;
+  padding:20px;
+  height: 400px;
+  width: 250px;
+  background-color:white;
+  border-radius: 20px;
+
 }
 
 
 .trending-card {
+  padding: 20px;
   height: 400px;
-  width: 200px;
+  width: 250px;
   background-color:white;
+  border-radius: 20px;
+
+  }
+  
+  .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .card-content {
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+  }
+
+  .card-icons{
+    display:flex;
+    justify-content: end;
+    height: 30px;
+    gap: 10px;
+  }
+
+  .announcement-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .announcment-card-content{
+    border-bottom:solid #e2e8f0;
+    padding: 20px;
+  }
+  .announcement-subtitle{
+    font-weight: bold;
   }

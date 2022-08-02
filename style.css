@@ -65,6 +65,7 @@ img{
   gap: 30px;
   align-items: center;
 
+
  }
 
  .search-container{
@@ -85,7 +86,8 @@ img{
 
  .profile-picture-1{
   width:40px;;
-  height:40px;;
+  height:40px;
+  border-radius:40px;
   
  }
  .bell-icon{
@@ -118,7 +120,7 @@ img{
  .profile-picture-2{
   width:60px;
   height:60px;
-  
+  border-radius: 60px;
  }
 
  button{
@@ -160,6 +162,8 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 5px 10px #888888;
+
 }
 .projects-list{
   display: flex;
@@ -226,7 +230,31 @@ img{
   width: 250px;
   background-color:white;
   border-radius: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 
+  }
+
+  .trending-content{
+    display:flex;
+    align-items: left;
+  }
+
+  .trending-picture{
+    height: 80px;
+    width: 80px;
+  }
+
+  .contact{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content:center
+
+  }
+  .contact-id{
+    font-weight:bold ;
   }
   
   .card-title{
@@ -255,6 +283,9 @@ img{
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+    box-shadow: 5px 10px #888888;
+
+
   }
 
   .announcment-card-content{
